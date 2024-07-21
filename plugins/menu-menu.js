@@ -84,14 +84,15 @@ const horarioFecha = lugarFecha.format('dddd, DD [de] MMMM [del] YYYY || HH:mm A
 
 let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.genero == 'Ocultado 🕶️' ? `🕶️` : user.genero == 'Mujer 🚺' ? `🚺` : user.genero == 'Hombre 🚹' ? `🚹` : '👤'} ${user.registered === true ? user.name : username}*${(conn.user.jid == global.conn.user.jid ? '' : `\n*SOY SUB BOT DE: https://wa.me/${global.conn.user.jid.split`@`[0]}*`) || ''}
 
-*〔 🍬BOMBON BOT 🫧 〕
+*〔🕷️𝘽𝙊𝙏 𝙁𝙉 𝙎𝙋𝙊𝙍𝙏𝙎 🕸️〕
 
-╭━〔 BOMBON BOT 〕━⬣
-┃ACTIVO: 03.06.2024
+╭━〔𝘽𝙊𝙏 𝙁𝙉 𝙎𝙋𝙊𝙍𝙏𝙎〕━⬣
+𝙃𝙊𝙇𝘼 𝙅𝙀𝙁𝙀 𝙔𝙀𝙄𝙆𝙊
+𝙀𝙉 𝙌𝙐𝙀 𝙋𝙐𝙀𝘿𝙊 𝙎𝙀𝙍𝙑𝙄𝙍𝙏𝙀!
 ╰━━━━━━━━━━━⬣
 ╭━〔COMANDOS〕━⬣
 ┃.menu | .comandos
-🍬🫧🍭🫧🍬🫧🍭🫧🍬
+🕷️🕸️🕷️🕸️🕷️🕸️🕷️🕸️🕷️
 ┃PERMANENTE | MENSUAL
 ╰━━━━━━━━━━━⬣
 
@@ -100,16 +101,19 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃🍬➺ .Fem6
 ┃🍬➺ .FemInterna4
 ┃🍬➺ .FemInterna6
+┃🌺➺ .vs8fem
+┃🌺➺ .vs12fem
+┃🌺➺ .scrimfem
 ┃🍬➺ .Masc4
 ┃🍬➺ .Masc6
 ┃🍬➺ .MascInterna4
 ┃🍬➺ .MascInterna6
+┃🍬➺ .reglasclk
+┃🍬➺ .guerra
 ┃🍬➺ .Mixto4
 ┃🍬➺ .Mixto6
 ┃🍬➺ .MixtoInterna4
 ┃🍬➺ .MixtoInterna6
-┃🍬➺ .guerra
-┃🍬➺ .reglasclk
 ┃🍬➺ .apos
 ┃🍬➺ .Ficha / jugador
 ┃🍬➺ .Vs4
@@ -172,6 +176,8 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃🫧➺ .dado
 ┃🫧➺ .verdad
 ┃🫧➺ .reto
+┃🫧➺ .anuel
+┃🫧➺ .ferxxo
 ╰━━━━━━━━━━━⬣
 
 ╭━━━[ AJUSTES - CHATS ]━━━⬣
@@ -269,9 +275,6 @@ let menu = `${lenguajeGB['smsConfi2']()} *${user.genero === 0 ? '👤' : user.ge
 ┃🌐➺ .off
 ╰━━━━━━━━━━━⬣
 
-╭━━[ CONTENIDO ]━━⬣
-┃🔞➺ .hornymenu
-╰━━━━━━━━━━━⬣
 
 ╭━[ CONVERTIDORES ]━⬣
 ┃🛰️➺ .toimg | img | jpg sticker
